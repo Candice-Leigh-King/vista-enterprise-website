@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<section class="grid-center padded photography-page capped-width padded-top">
+  <div class="grid-center light-bg">
+      <div class="col-6_xs-12 padded-05">
+        <h4 class="centered padded-top"> {{page.project-name}}</h4>
+        <p class="padded-05">{{page.main-paragraph}}</p>
+      </div>
+      <div class="col-6-middle_xs-12 centered padded-05">
+        <h1>{{page.location}}</h1>
+      </div>
+  </div>
+</section>
+
+<section class="project-gallery grid centered capped-width">
+  <!-- top three -->
+  <a class="col-one-third padded-05" href="{{page.left-photo-link}}" data-fancybox="gallery">
+    <div style="background-image:url({{page.left-photo}})" class="bg-image-portfolio one-third"></div>
+  </a>
+
+  <a class="col-one-third padded-05" href="{{page.middle-photo-link}}" data-fancybox="gallery">
+    <div style="background-image:url({{page.middle-photo}})" class="bg-image-portfolio one-third"></div>
+  </a>
+
+  <a class="col-one-third padded-05" href="{{page.right-photo-link}}" data-fancybox="gallery">
+    <div style="background-image:url({{page.right-photos}})" class="bg-image-portfolio one-third"></div>
+  </a>
+
+  <!-- big middle -->
+  <a class="col-full-width padded-05" href="/travel/darkerricelandscape.jpg" data-fancybox="gallery">
+    <div style="background-image:url(/travel/darkerricelandscape.jpg)" class="bg-image-portfolio full-width"></div>
+  </a>
+
+</section>
