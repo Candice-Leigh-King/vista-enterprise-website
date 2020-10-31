@@ -1,9 +1,10 @@
 /*-----  CSS RESET  ------*/
-  /* colours : #0e54aa */
-            /* #fdc731; */
+  /* colours : #6b2928; */
+            /* #7ca553; */
 
 /* fonts  */
-/* font-family: 'Exo', sans-serif; */
+/* font-family: 'Epilogue', sans-serif; this is for bold
+  font-family: 'Noto Sans TC', sans-serif; */
 
   * {
     padding: 0;
@@ -54,8 +55,8 @@
   .dark-bg      {  background-color: rgb(90, 90, 95);     }
   .light-bg     {  background-color: #f9f9f9;  }
   .featured-bg  {  background-color: #ffdfc3;       }
-  .blue-bg      { background-color:  #0e54aa;}
-  .mustard-bg { background-color: #fdc731;}
+  .blue-bg      { background-color:  #7ca553;}
+  .mustard-bg { background-color: #6b2928;}
 
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
@@ -65,42 +66,46 @@
    h2, h3, h5 {
     line-height: 1;
     margin-bottom: 0.8rem;
-    font-family: 'Exo', sans-serif;
-    color: #0e54aa;
+    font-family: 'Epilogue', sans-serif;
+    text-transform: uppercase;
+    color: #7ca553;
     font-weight: 400;
   }
 
   h4 {
     line-height: 1;
-  padding: 2%;
-    font-family: 'Exo', sans-serif;
-    color: #fdc731;
+    padding: 2%;
+    font-family: 'Epilogue', sans-serif;
+    text-transform: uppercase;
+    color: #7ca553;
     font-size: 1.2rem;
     font-weight: 200;
-    cursor: pointer;
 
   }
 
   h5 {
     line-height: 1;
     margin-bottom: 0.8rem;
-    font-family: 'Exo', sans-serif;
-    color: #0e54aa;
+    font-family: 'Epilogue', sans-serif;
+    text-transform: uppercase;
+    color: #7ca553;
     font-size: 0.7rem;
     font-weight: 700;}
 
   h6 {
     line-height: 1;
     margin-bottom: 0.8rem;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Epilogue', sans-serif;
+    text-transform: uppercase;
     color: white;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;}
 
   h1  {
-    font-family: 'Exo', sans-serif;
-    font-weight: 700;
+    font-family: 'Epilogue', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
     color: white;
     text-shadow: 0px 2px 5px rgba(0,0,0,0.5);}
 
@@ -131,7 +136,7 @@
   }
   .icons i {
     font-size: 3rem;
-    color: #fdc731; }
+    color:#7ca553; }
 
   .icons p {
     font-size: 0.9rem;
@@ -143,12 +148,12 @@
 
   .claims h2 {color: white;}
 
-  .banner p {color: #0e54aa;}
+  .banner p {color: #7ca553;}
 
   a {
     text-decoration: none;
-    color: #0e54aa;}
-  a:hover {color: #fdc731;}
+    color: #6b2928;}
+  a:hover {color: #7ca553;}
 
 
 
@@ -156,10 +161,14 @@
 
   .not-bold   { font-weight: normal; } /* add this class to make headings not bold */
   .no-bullets { list-style:none; } /* Used to remove dot-points from a list */
+  .sub-heading {
+     font-weight: 500;
+     margin-top: 2%;
+     color: white;}
 
   .big-bold {
-    font-size: 2.5rem;
-    font-weight: 500;
+    font-size: 3.5rem;
+    font-weight: 800;
   }
 
   p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
@@ -171,6 +180,7 @@
   .far {        /* default styles for font awesome icons */
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: #6b2928;
   }
 
   .featured-stat {     /* styles for our featured statistic icons  */
@@ -212,7 +222,7 @@
   .button-solid,
   .button-inverted {
     text-decoration: none;
-    color: #fdc731;
+    color: #6b2928;
     border: 2px solid;
     padding: 0.6rem 2rem;
     margin-top: 1rem;
@@ -225,7 +235,7 @@
   }
 
   .button:hover {
-    color: #0e54aa;
+    color: #7ca553;
   }
 
   .button.inverted {   /* this is for a button on a dark background */
@@ -234,20 +244,20 @@
   }
 
   .button.inverted:hover {
-    color: #fdc731;
-    border-color: #fdc731;
+    color: #6b2928;
+    border-color: #6b2928;
   }
 
   .button-solid:hover {
-    background-color: #0e54aa;
-    border-color:#0e54aa;
+    background-color: #7ca553;
+    border-color:#7ca553;
     color: white;
   }
 
   .button-solid{
     color: white;
-    background-color: #fdc731;
-    border-color: #fdc731;
+    background-color: #6b2928;
+    border-color: #6b2928;
   }
 
 
@@ -256,16 +266,17 @@
 
   header {
     padding: 2% 5%;
-    background-color: #fdc731;
+    background-color:#6b2928;
   }
 
   header a,
-  footer a,
   nav a {
     text-decoration: none;
-    color: #0e54aa;
-    font-family: 'Exo', sans-serif;
-    text-transform: lowercase;
+    color: white;
+    font-family: 'Epilogue', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 400;
   }
 
   header nav a,
@@ -275,29 +286,40 @@
 
   }
   header nav a:hover {
-    border-bottom: #0e54aa solid 1px;
-    color: white;
+    border-bottom: #7ca553 solid 1px;
+    color: #7ca553;
   }
 
   header nav a.emphasis {
     /* padding: 0.5rem 2rem; */
     margin: 0 0.5rem;
-    border: 1px solid #0e54aa;
+    border: 1px solid white;
     border-radius: 2px;
-    color:#0e54aa;
+    color:white;
   }
 
   header nav a.emphasis:hover {
-    background-color: #0e54aa;
+    background-color: #7ca553;
     color: white;
+    border: 1px solid #7ca553;
   }
 
-  footer {border-top: #0e54aa solid 1.5px; }
+  footer {border-top: #7ca553 solid 1.5px; }
+
+
+  footer a {
+    color: #7ca553;
+    padding-bottom: 1.5%;}
+
+  footer a:hover {color: #6b2928;}
+
   .sub-footer a {
     color: white;
     padding: 0% 2%;
   }
-  .sub-footer a:hover {color: #fdc731;}
+
+  .sub-footer a:hover { color: #6b2928;}
+
   .sub-footer p {
     color: white;
     padding: 0% 2%;}
@@ -341,7 +363,7 @@
   header.fixed {
     position: fixed;
     padding: 0% 5%;
-    background-color: #fdc731;
+    background-color: #6b2928;
     top:0;
     left:0;
     right:0;
@@ -368,7 +390,7 @@
     z-index: 3;
     font-size: 1.5rem;
     padding:2% 5%;
-    color: #0e54aa;
+    color: #7ca553;
   }
   .active {
     color: white;
@@ -393,15 +415,15 @@
     left:0;
     right:0;
     bottom: 0;
-    background-color: #fdc731;
+    background-color: #6b2928;
     padding: 20% 10%;
   }
 
   .mobile-menu .emphasis {
     margin: 0 0.5rem;
-    border: 1px solid #0e54aa;
+    border: 1px solid #7ca553;
     border-radius: 2px;
-    color: #0e54aa;
+    color: #7ca553;
 }
 
   .mobile-menu a {
@@ -434,10 +456,9 @@
 
   .banner,
   .banner-with-header {
-    background-image: url('../images/adventure.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    min-height: 100vh;
   }
 
   .fixed {
@@ -596,7 +617,7 @@
   input:focus,
   textarea:focus {
     outline: none;
-    border: 2px solid #fdc731
+    border: 2px solid #6b2928
     /* featured color */
   }
 
@@ -777,37 +798,22 @@
 }
 
  .accordion{
-  border: solid 1px  #fdc731;
+  border: solid 1px  #6b2928;
   margin: 1%;}
 
   .accordion p {
     margin: 0% 1% 1% 1%;
     padding: 1%;
-    border-left: 2px solid #fdc731;}
+    border-left: 2px solid #6b2928;}
 
   .accordion:hover{
-   border: solid 1px #0e54aa;
+   border: solid 1px #7ca553;
    color: rgb(90, 90, 95);
    cursor: pointer;}
 
-   h4:hover {color: #0e54aa;}
 
  .accordion1, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6, .accordion7, .accordion8 p {color: rgb(90, 90, 95);}
 
-/* NEED DANIELs HELP to stop auto popping back open, and make the thing twist */
-h4::before {
-  content: "＋";
-  font-size: 1.2rem;
-
-}
-.active h4::before {
-  content: "－";
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
-  font-size: 1.2rem;
-  transition: all 0.5s ease-in;
-}
 
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
