@@ -43,9 +43,13 @@
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
   .padded-3 {  padding: 2%;}
+  .padded-05  {padding: .5rem;}
   .padded-sides {padding: 0% 5%;}
   .padded-top-bottom {padding: 5% 0%;}
   .capped-width { width: 80%; margin: auto;}
+  .padded-top {  padding-top: 5%;  }
+
+  .border {border: 2px solid #6b2928;}
 
   .margin-top {margin-top: 2%;}
 
@@ -177,7 +181,7 @@
 
   /* Icons */
 
-  .far {        /* default styles for font awesome icons */
+  .far, .fas{        /* default styles for font awesome icons */
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #6b2928;
@@ -227,7 +231,7 @@
     padding: 0.6rem 2rem;
     margin-top: 1rem;
     display: inline-block;
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: 500;
     font-family: 'Exo', sans-serif;
@@ -502,8 +506,11 @@
     transition: all 0.3s;
   }
 
+  .hover-overlay h3 { color:white;}
+  .hover-overlay h4 { color:white;}
+
   .hover-overlay:hover {
-    background-color: rgba(60, 60, 60, 0.7);
+    background-color: rgba(124, 165, 83, 0.7);
     color: white;
   }
 
@@ -603,6 +610,19 @@
 
   /* ----- FORMS --------------------------- */
 
+.input-text {
+  font-size: 1rem;
+    line-height: 1.2;
+    display: block;
+    margin: 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #5f5a5a;
+    transition: all .5s;
+    padding: .7rem 0 .5rem;
+    background-color: rgba(0,0,0,0);
+}
+
   input,
   textarea {
     border-style: solid;
@@ -617,7 +637,7 @@
   input:focus,
   textarea:focus {
     outline: none;
-    border: 2px solid #6b2928
+    border-bottom: 2px solid #7ca553;
     /* featured color */
   }
 
@@ -714,6 +734,31 @@
 .popup-gallery .bg-image {
   border: 2px solid white;
 }
+
+/* fancybox gallery */
+
+.project-gallery a {
+    display: block;}
+
+.col-one-third {
+    flex-basis: 33.33%;
+    max-width: 33.33333%;  }
+
+.col-full-width {
+    flex-basis: 100%;
+    max-width: 100%;}
+
+.full-width {  padding-bottom: 60%;    }
+
+.one-third {padding-bottom: 123%;}
+
+  .bg-image-portfolio {
+    background-size: cover;
+    background-position: center;
+    background-color: #d3ccc2;
+    background-repeat: no-repeat;
+    }
+
 
 
 /* Masonry Gallery */
@@ -833,9 +878,7 @@
     margin: -0.5rem;
   }
 
-  .capped-width {
-    width: 100%;
-  }
+
   .flex-flip{
     flex-direction: row;
   }

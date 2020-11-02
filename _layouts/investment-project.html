@@ -3,12 +3,19 @@ layout: default
 ---
 
 <section class="banner grid-center" style="background-image:url({{page.banner}}">
-  <h1 class="col-8-middle centered big-bold"> {{page.heading}} </h1>
+  <div class="col-8-middle centered">
+    <h1 class="big-bold"> {{page.heading}} </h1>
+    <a href="{{page.button-link}}" class= "button-solid"> {{page.button}}</a>
+  </div>
 </section>
 <section class="grid-center light-bg padded">
-  <p class="col-8-middle centered"> {{page.paragraph}} </p>
+  <div class= "col-8_sm-10 centered"
+  <p> {{page.paragraph}} </p>
 </section>
-  <section class="padded centered">
+
+{{content}}
+
+  <section id="projects"class="padded centered">
     <div class="grid padded-1">
       <div class="col-4_sm-6 padded-1">
         <a href="{{page.link-1}}">

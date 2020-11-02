@@ -6,7 +6,7 @@
     <meta charset="utf-8">
 
     <!-- Meta data for SEO purposes. -->
-    <title> Vista Enterprise | Constuction | Contact </title>
+    <title> Vista Enterprise | Contact </title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
@@ -18,7 +18,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
     <!--  Social media sharing META Tags -->
-    <meta property="og:title" content="Vista Enterprise | Constuction | Contact">
+    <meta property="og:title" content="Vista Enterprise | Contact">
     <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta property="og:url" content="/contact.html">
@@ -45,6 +45,9 @@
     <!-- Magnific Popup for lightbox galleries   -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 
+    <!-- fanceybox gallery -->
+    <link rel="stylesheet" href="/css/jquery.fancybox.min.css"/>
+
     <!-- our own custom stylesheet -->
     <link rel="stylesheet" href="/slick/slick.css"/>
     <link rel="stylesheet" href="/slick/slick-theme.css"/>
@@ -63,8 +66,8 @@
       <a href="/index#services"> services </a>
       <a href="/index#story"> our story </a>
       <a href="/index#team"> our team </a>
-      <a href="/projects"> projects </a>
       <a href="/index#gallery">gallery </a>
+      <a href="/projects"> projects </a>
       <a href="/contact"> Contact </a>
       <!-- <a href="/blog"> Blog </a> -->
       <a href="/investment-center" class="emphasis"> investment center </a>
@@ -93,56 +96,51 @@
   </header>
 
 <!-- form -->
-<section>
-  <section class="padded-10 v-light-bg">
-
-    <form action="https://formspree.io/hello@candyandtheking.com" method="POST" class="enquiry capped-width">
-
-      <div class="grid padded">
-      <div class="col-2_sm-12 relative">
-        <h2 class="sm-bold vertical-form-text"> basic info </h2>
+<section class="grid-center">
+  <section class="padded col-10">
+    <div class="light-bg border">
+      <form action="https://formspree.io/jerome@jsib.co.za" method="POST" class="enquiry capped-width">
+        <div class="grid-center padded">
+          <div class="col-12 centered">
+            <h2 class="sm-bold"> Let's get in Touch </h2>
+          </div>
+          <div class="col-10_sm-12 light-bg padded-2">
+            <h3>Basics</h3>
+            <div class="floating-input">
+              <input type="text" name="name" placeholder="Your Name" class="input-text" required="">
+              <label class="input-label"><br></label>
+            </div>
+          <div class="floating-input">
+            <input type="text" name="email" placeholder="Your Email Address" class="input-text" required="">
+            <label class="input-label"><br></label>
+          </div>
+          <div class="floating-input">
+            <input type="text" name="whatsapp" placeholder="Contact Number (if preferred)" class="input-text">
+            <label class="input-label"><br></label>
+          </div>
+        </div>
       </div>
-
-      <div class="col-10_sm-12 padded-2">
-        <div class="floating-input">
-          <input type="text" name="name" placeholder="Your Name" class="input-text" required="">
-          <label class="input-label">Your Name</label>
+        <div>
+        <div class="grid-center padded">
+          <div class="col-10_sm-12">
+            <h3 class="sm-bold">How can we help? </h3>
+            <div class="floating-input">
+              <label for="attending"> What are you interested in?</label>
+              <select name="attending" id="attending" required="">
+                <option value="select"> select </option>
+                <option value="Commercial"> Building</option>
+                <option value="Domestic">Investing</option>
+            </div>
+          </div>
         </div>
-
-        <div class="floating-input">
-          <input type="text" name="email" placeholder="Your Email Address" class="input-text" required="">
-          <label class="input-label">Your Email Address</label>
-        </div>
-
-        <div class="floating-input">
-          <input type="text" name="whatsapp" placeholder="Your WhatsApp (if preferred)" class="input-text">
-          <label class="input-label">Your WhatsApp</label>
-        </div>
-
+          <input type="text" name="message" placeholder="Leave us a message (optional)" class="input-text margin-top">
+          <input type="submit" value="Send Message" class="button-solid">
+        </form>
       </div>
-    </div>
-    <div class="grid padded">
-
-      <div class="col-2_sm-12 relative">
-        <h2 class="sm-bold vertical-form-text"> your brand </h2>
-      </div>
-
-      <div class="col-10_sm-12 padded-2">
-        <div class="floating-input">
-          <textarea name="your-brand" placeholder="Tell us a little bit more about business or brand" class="input-text" required=""></textarea>
-          <label class="input-label">Your Brand</label>
-        </div>
-
-        <div class="floating-input">
-          <textarea name="message" placeholder="What services do you require? Web Development, Social Media Course, etc.." class="input-text" required="What services do you require? Web Development, Social Media Course, etc.."></textarea>
-          <label class="input-label">Your Message</label>
-        </div>
-      <input type="submit" value="Send Message" class="button-solid">
-  </form>
   </section>
 </section>
 <section class="padded grid-center centered">
-  <div class="col-9_sm-12">
+  <div class="col-10_sm-12 border">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.6766754109817!2d100.55668581501979!3d13.73801460131369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f8c30e0558b%3A0xd813da81314f15f5!2sKing%20Code!5e0!3m2!1sen!2sla!4v1602247440306!5m2!1sen!2sla" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
   </div>
 </section>
@@ -162,9 +160,10 @@
   <div class="col-3_sm-4_xs-12 padded-1">
     <h3> Our Services </h3>
     <nav>
-      <a href="/index#services"> Short-term Insurance </a>
-      <a href="/index#commercial"> Commercial Insurance </a>
-      <a href="/index#domestic"> Domestic Insurance </a>
+      <a href="/index#services"> Construction </a>
+      <a href="/index#services"> Framing </a>
+      <a href="/index#services"> Exterior Finishes </a>
+      <a href="/index#services"> Renderings </a>
     </nav>
   </div>
 
@@ -172,10 +171,10 @@
   <div class="col-3_sm-4_xs-12 padded-1">
     <h3> Explore </h3>
     <nav>
-      <a href="/index#story"> Our Story </a>
-      <!-- <a href="/blogs"> Blog </a> -->
-      <a href="/index#faqs"> FAQs </a>
-      <a href="/index#claims"> Paid Claims </a>
+      <a href="/projects"> Projects </a>
+      <a href="/investment-center"> Inventment Center </a>
+      <a href="/index#about"> About </a>
+      <a href="/index#teams"> Meet our Team </a>
     </nav>
   </div>
 
@@ -186,6 +185,7 @@
       <a href="/index#map"> 19 Mill Road, Hillcrest </a>
       <a href="tel:+27317651080"> +27 (31) 765 1080 </a>
       <a href="https://www.facebook.com/JSib.brokers" target="_blank"> Facebook </a>
+      <a href="https://www.facebook.com/JSib.brokers" target="_blank"> Email Add</a>
     </nav>
   </div>
 </footer>

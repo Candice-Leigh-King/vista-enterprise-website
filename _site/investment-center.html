@@ -6,7 +6,7 @@
     <meta charset="utf-8">
 
     <!-- Meta data for SEO purposes. -->
-    <title> JSib | Brokers in South Africa </title>
+    <title> Vista Enterprise Inc | Property Investment </title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
@@ -18,7 +18,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
     <!--  Social media sharing META Tags -->
-    <meta property="og:title" content="JSib | Brokers in South Africa">
+    <meta property="og:title" content="Vista Enterprise Inc | Property Investment">
     <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta property="og:url" content="/investment-center.html">
@@ -45,6 +45,9 @@
     <!-- Magnific Popup for lightbox galleries   -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 
+    <!-- fanceybox gallery -->
+    <link rel="stylesheet" href="/css/jquery.fancybox.min.css"/>
+
     <!-- our own custom stylesheet -->
     <link rel="stylesheet" href="/slick/slick.css"/>
     <link rel="stylesheet" href="/slick/slick-theme.css"/>
@@ -63,8 +66,8 @@
       <a href="/index#services"> services </a>
       <a href="/index#story"> our story </a>
       <a href="/index#team"> our team </a>
-      <a href="/projects"> projects </a>
       <a href="/index#gallery">gallery </a>
+      <a href="/projects"> projects </a>
       <a href="/contact"> Contact </a>
       <!-- <a href="/blog"> Blog </a> -->
       <a href="/investment-center" class="emphasis"> investment center </a>
@@ -93,80 +96,118 @@
   </header>
 
 <section class="banner grid-center" style="background-image:url(/images/investment.jpg">
-  <h1 class="col-8-middle centered big-bold"> Invest in property </h1>
+  <div class="col-8-middle centered">
+    <h1 class="big-bold"> Invest in property </h1>
+    <a href="/investment-center#invest" class= "button-solid"> Invest Now</a>
+  </div>
 </section>
 <section class="grid-center light-bg padded">
-  <p class="col-8-middle centered"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+  <div class= "col-8_sm-10 centered"
+  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 </section>
-  <section class="padded centered">
+
+<section class="grid-center">
+  <section class="padded col-10">
+    <div class="light-bg border">
+      <form action="https://formspree.io/jerome@jsib.co.za" method="POST" class="enquiry capped-width">
+        <div id="invest"class="grid-center padded">
+          <div class="col-12 centered">
+            <h3 class="sm-bold"> Contact us for more information </h3>
+          </div>
+          <div class="col-10_sm-12 light-bg padded-2">
+            <div class="floating-input">
+              <input type="text" name="name" placeholder="Your Name" class="input-text" required="">
+              <label class="input-label"><br></label>
+            </div>
+          <div class="floating-input">
+            <input type="text" name="email" placeholder="Your Email Address" class="input-text" required="">
+            <label class="input-label"><br></label>
+          </div>
+          <div class="floating-input">
+            <input type="text" name="whatsapp" placeholder="Contact Number (if preferred)" class="input-text">
+            <label class="input-label"><br></label>
+          </div>
+          <input type="text" name="message" placeholder="Leave us a message (optional)" class="input-text margin-top">
+          <input type="submit" value="Send Message" class="button-solid">
+        </form>
+      </div>
+  </section>
+</section>
+
+<section class="centered">
+  <h2>Explore our recent projects</h2>
+</section>
+
+
+  <section id="projects"class="padded centered">
     <div class="grid padded-1">
       <div class="col-4_sm-6 padded-1">
-        <a href="/xproject">
-          <div class="hover-container" style="background-image:url('/food/stickyrice.jpg')">
+        <a href="/malibu">
+          <div class="hover-container" style="background-image:url('/vista-ridge-malibu/ridge1.jpg')">
             <div class="hover-overlay">
               <div class="hover-inner">
-                <h3> Food</h3>
-                <h4>hondorus</h4>
+                <h3> Malibu</h3>
+                <h4>2210 Ridge Drive</h4>
               </div>
             </div>
           </div>
         </a>
       </div>
       <div class="col-4_sm-6 padded-1">
-        <a href="/xproject">
-          <div class="hover-container" style="background-image:url('/food/stickyrice.jpg')">
+        <a href="/barryknoll-drive-3927">
+          <div class="hover-container" style="background-image:url('/barryknoll-california/barryknoll0.jpg')">
             <div class="hover-overlay">
               <div class="hover-inner">
-                <h3>Food</h3>
-                <h4>hondorus</h4>
+                <h3>Los Angeles</h3>
+                <h4>3927 Barryknoll Drive</h4>
               </div>
             </div>
           </div>
         </a>
       </div>
       <div class="col-4_sm-6 padded-1">
-        <a href="/xproject">
-          <div class="hover-container" style="background-image:url('/food/stickyrice.jpg')">
+        <a href="/losangeles">
+          <div class="hover-container" style="background-image:url('/beckman-losangeles/beckman1.jpg')">
             <div class="hover-overlay">
               <div class="hover-inner">
-                <h3>Food</h3>
-                <h4>hondorus</h4>
+                <h3>Los Angeles</h3>
+                <h4>3060 Beckman Road</h4>
               </div>
             </div>
           </div>
         </a>
       </div>
       <div class="col-4_sm-6 padded-1">
-        <a href="/xproject">
-          <div class="hover-container" style="background-image:url('/food/stickyrice.jpg')">
+        <a href="/barryknoll-drive-3941">
+          <div class="hover-container" style="background-image:url('/barryknoll-california-3941/barryknoll1.jpg')">
             <div class="hover-overlay">
               <div class="hover-inner">
-                <h3>Food</h3>
-                <h4>hondorus</h4>
+                <h3>Los Angeles</h3>
+                <h4>3941 Barryknoll</h4>
               </div>
             </div>
           </div>
         </a>
       </div>
       <div class="col-4_sm-6 padded-1">
-        <a href="/xproject">
-          <div class="hover-container" style="background-image:url('/food/stickyrice.jpg')">
+        <a href="/ocean-view-drive">
+          <div class="hover-container" style="background-image:url('/ocean-view-malibu/oceanview1.jpg')">
             <div class="hover-overlay">
               <div class="hover-inner">
-                <h3>Food</h3>
-                <h4>hondorus</h4>
+                <h3>Malibu</h3>
+                <h4>26600 Ocean View Drive</h4>
               </div>
             </div>
           </div>
         </a>
       </div>
       <div class="col-4_sm-6 padded-1">
-        <a href="/xproject">
-          <div class="hover-container" style="background-image:url('/food/stickyrice.jpg')">
+        <a href="/barryknoll-drive-3933">
+          <div class="hover-container" style="background-image:url('/barryknoll-california-3933/barryknoll.jpg')">
             <div class="hover-overlay">
               <div class="hover-inner">
-                <h3>Food</h3>
-                <h4>hondorus</h4>
+                <h3>Los Angeles</h3>
+                <h4>3933 Barryknoll</h4>
               </div>
             </div>
           </div>
@@ -189,9 +230,10 @@
   <div class="col-3_sm-4_xs-12 padded-1">
     <h3> Our Services </h3>
     <nav>
-      <a href="/index#services"> Short-term Insurance </a>
-      <a href="/index#commercial"> Commercial Insurance </a>
-      <a href="/index#domestic"> Domestic Insurance </a>
+      <a href="/index#services"> Construction </a>
+      <a href="/index#services"> Framing </a>
+      <a href="/index#services"> Exterior Finishes </a>
+      <a href="/index#services"> Renderings </a>
     </nav>
   </div>
 
@@ -199,10 +241,10 @@
   <div class="col-3_sm-4_xs-12 padded-1">
     <h3> Explore </h3>
     <nav>
-      <a href="/index#story"> Our Story </a>
-      <!-- <a href="/blogs"> Blog </a> -->
-      <a href="/index#faqs"> FAQs </a>
-      <a href="/index#claims"> Paid Claims </a>
+      <a href="/projects"> Projects </a>
+      <a href="/investment-center"> Inventment Center </a>
+      <a href="/index#about"> About </a>
+      <a href="/index#teams"> Meet our Team </a>
     </nav>
   </div>
 
@@ -213,6 +255,7 @@
       <a href="/index#map"> 19 Mill Road, Hillcrest </a>
       <a href="tel:+27317651080"> +27 (31) 765 1080 </a>
       <a href="https://www.facebook.com/JSib.brokers" target="_blank"> Facebook </a>
+      <a href="https://www.facebook.com/JSib.brokers" target="_blank"> Email Add</a>
     </nav>
   </div>
 </footer>
