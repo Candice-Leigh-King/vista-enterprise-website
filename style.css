@@ -396,9 +396,7 @@
     padding:2% 5%;
     color: #7ca553;
   }
-  .active {
-    color: white;
-  }
+
   .cross {
     top:0;
     right:0;
@@ -409,7 +407,7 @@
     margin: 6%;
     position: fixed;
     font-weight: bold;
-    color: black;
+    color: white;
   }
 
   .mobile-menu {
