@@ -205,3 +205,21 @@
     opacity: .75;
     color: black;
 }
+@media  (max-width:768px) {
+  .slick-next {right: 5px;}
+  .slick-prev {left: 5px;}
+}
+@media(max-width:576px) {
+  .slick-next {right: -8px;}
+  .slick-prev {left: -8px;}
+  .slick-prev {
+    height: 25px;
+    padding-left: 6px;
+    padding-right: 21px;}
+    .slick-next {
+      height: 25px;
+      padding-left: 6px;
+      padding-right: 21px;}
+  .slick-next:before {font-size: 15px;}
+  .slick-prev:before {font-size: 15px;}
+}

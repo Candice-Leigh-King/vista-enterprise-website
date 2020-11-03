@@ -72,8 +72,14 @@ $(document).ready(function() {
 			 $('.multiple-items').slick({
 	   infinite: true,
 	   slidesToShow: 4,
-	   slidesToScroll: 3
+	   slidesToScroll: 4
 	 });
+
+	 $('.two-items').slick({
+	infinite: true,
+	slidesToShow: 2,
+	slidesToScroll: 2
+});
 
 	// This is the pop-up gallery
 	$('.popup-gallery').magnificPopup({
