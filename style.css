@@ -654,6 +654,17 @@
     padding: 5px;
   }
 
+  select {
+    font-family: 'Noto Sans TC', sans-serif;
+    text-transform: capitalize;
+    color: rgb(90, 90, 95);
+    cursor: pointer;
+    border: 0;}
+  select:hover {
+    background-color: #6b2928;
+    color: white;}
+  select:active {border: 0 solid #f9f9f9;}
+
   .email-signup input {
     width: 30%;
     display: inline-block;
