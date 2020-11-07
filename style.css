@@ -329,7 +329,8 @@
     padding: 0% 2%;}
 
   .logo img {max-height: 6rem;
-  width: auto;}
+  width: auto;
+  padding: 2%;}
 
   .associates img {
     padding: 5%;
