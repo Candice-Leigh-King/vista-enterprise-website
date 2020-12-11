@@ -476,9 +476,9 @@
   }
 
   .bg-image-mob-banner {
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    min-height: 10rem;
+    background-repeat: no-repeat;
   }
   /* Hover grid */
 
