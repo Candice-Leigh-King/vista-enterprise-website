@@ -56,7 +56,7 @@
 <body>
 
   <header class="grid fixed">
-    <div class="logo col-3-middle">
+    <div class="logo col-3_sm-8-middle">
       <a class="logo" href="/index">
         <img src="/images/vista-logo3.png" alt="">
       </a>
@@ -65,7 +65,7 @@
       <a href="/index#about"> about </a>
       <a href="/index#services"> services </a>
       <a href="/index#story"> our story </a>
-      <a href="/index#team"> our team </a>
+      <!-- <a href="/index#team"> our team </a> -->
       <a href="/index#gallery">gallery </a>
       <a href="/projects"> projects </a>
       <a href="/contact"> Contact </a>
@@ -84,15 +84,15 @@
           <img src="/images/vista-logo3.png" alt="">
         </a>
         <p class="cross exit right">╳</p>
-          <a href="/index#about"> about </a>
-          <a href="/index#services"> services </a>
-          <a href="/index#story"> our story </a>
-          <a href="/index#team"> our team </a>
-          <a href="/index#gallery">gallery </a>
-          <a href="/projects"> projects </a>
-          <a href="/contact"> Contact </a>
+          <a class="exit" href="/index#about"> about </a>
+          <a class="exit" href="/index#services"> services </a>
+          <a class="exit" href="/index#story"> our story </a>
+          <!-- <a href="/index#team"> our team </a> -->
+          <a class="exit" href="/index#gallery">gallery </a>
+          <a class="exit" href="/projects"> projects </a>
+          <a class="exit" href="/contact"> Contact </a>
           <!-- <a href="/blog"> Blog </a> -->
-          <a href="/investment-center" class="emphasis"> investment center </a>
+          <a class="exit" href="/investment-center" class="emphasis"> investment center </a>
       </div>
     </div>
   </header>
@@ -127,9 +127,8 @@
           <div class="col-10_sm-12">
             <h3 class="sm-bold">How can we help? </h3>
             <div class="floating-input">
-              <label for="attending"> What are you interested in?</label>
               <select name="attending" id="attending" required="">
-                <option value="select"> Select </option>
+                <option value="select"> What are you interested in? </option>
                 <option value="Commercial"> Construction</option>
                 <option value="Domestic">Investing</option>
                 <input type="text" name="message" placeholder="Leave a message (optional)" class="input-text margin-top">
@@ -143,7 +142,7 @@
 </section>
 <section id="map" class="padded grid-center centered">
   <div class="col-10_sm-12 border">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.6766754109817!2d100.55668581501979!3d13.73801460131369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f8c30e0558b%3A0xd813da81314f15f5!2sKing%20Code!5e0!3m2!1sen!2sla!4v1602247440306!5m2!1sen!2sla" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6601.258514394284!2d-118.208126923297!3d34.18139534787022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c21fa4a9b767%3A0x6681245916fc56ce!2sEmerald%20Isle%2C%20Glendale%2C%20CA!5e0!3m2!1sen!2sus!4v1607672664715!5m2!1sen!2sus" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
   </div>
 </section>
 
@@ -156,16 +155,15 @@
     </a>
     <p> We are a licensed construction company operating in The USA <br> CSLB# 784180 </p>
   </div>
-  <div class="col-1 sm-hidden"> <!-- empty filler --> </div>
 
   <!-- column -->
   <div class="col-3_sm-4_xs-12 padded-1">
-    <h3> Our Services </h3>
+    <h3> Projects </h3>
     <nav>
-      <a href="/index#services"> Construction </a>
-      <a href="/index#services"> Framing </a>
-      <a href="/index#services"> Exterior Finishes </a>
-      <a href="/index#services"> Renderings </a>
+      <a href="/projects"> Most Recent </a>
+      <a href="/malibu"> Malibu </a>
+      <a href="/barryknoll-drive-3927"> Los Angeles </a>
+        <a href="/projects">-</a>
     </nav>
   </div>
 
@@ -173,27 +171,27 @@
   <div class="col-3_sm-4_xs-12 padded-1">
     <h3> Explore </h3>
     <nav>
-      <a href="/projects"> Projects </a>
+      <a href="/index#services"> Services </a>
       <a href="/investment-center"> Investment Center </a>
-      <a href="/index#about"> About </a>
-      <a href="/index#teams"> Meet our Team </a>
+      <a href="/index#story"> Our Story </a>
+      <a href="/index#gallery"> Gallery </a>
     </nav>
   </div>
 
   <!-- column -->
-  <div class="col-2_sm-4_xs-12 padded-1">
+  <div class="col-3_sm-4_xs-12 padded-1">
     <h3> Connect </h3>
     <nav>
-      <a href="/contact#map"> 19 Mill Road, Hillcrest </a>
+      <a href="mailto:contact@vistaenterpriseinc.com"> contact@vistaenterpriseinc.com</a>
+      <a href="/contact#map"> Emerald Isle Glendale, CA </a>
       <a href="tel:+18187907437"> +1 818 790 7437 </a>
       <a href="tel:+3234221916"> +1 323 422 1916</a>
-      <a href="mailto:contact@vistaenterpriseinc.com"> contact@vistaenterpriseinc.com</a>
     </nav>
   </div>
 </footer>
 <div class="col-12 centered sub-footer blue-bg">
   <p class="small-font "> <a href="https://kingcode.uk/" target="_blank"> Website by King Code </a>
-   <a href="https://www.vistaenterpriseinc.com/"> © vistaenterpriseinc.com </a> contact@vistaenterpriseinc.com</p></p>
+   <a href="https://www.vistaenterpriseinc.com/"> © vistaenterpriseinc.com </a> <a href ="mailto:contact@vistaenterpriseinc.com"> contact@vistaenterpriseinc.com</a></p>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
