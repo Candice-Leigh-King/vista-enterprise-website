@@ -523,12 +523,6 @@
   }
 
 
-/* pop-up gallery */
-
-.popup-gallery .bg-image {
-  border: 2px solid white;
-}
-
 /* fancybox gallery */
 
 .project-gallery a {
@@ -556,6 +550,7 @@
 .card .button {
   margin-top:2rem;
 }
+
 @media (min-width:769px) {
   .desktop-hide {display: none;}
 }
