@@ -378,6 +378,12 @@
     min-height: 100vh;
   }
 
+  .bg-image-mob-banner {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .fixed {
     background-attachment: fixed;
   }
