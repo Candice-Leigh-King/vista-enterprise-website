@@ -396,6 +396,11 @@
 
   /* Hover grid */
 
+  .hover-container {
+    background-size: cover;
+    background-position: center;
+  }
+  
   .hover-overlay {
     position: relative;
     padding-bottom: 100%;
