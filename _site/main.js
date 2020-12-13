@@ -42,32 +42,6 @@ $(document).ready(function() {
 					});
 			});
 
-			$(document).ready(function() {
-		 	 $(window).scroll( function(){
-		 		 $('.slideinleft')
-				 .each( function(i){
-		 				 var bottom_of_element_left = $(this).offset().top;
-		 				 var bottom_of_window = $(window).scrollTop() + $(window).height();
-		 				 if( bottom_of_window > bottom_of_element_left ){
-		 						 $(this).animate({'margin-left':'0px'},2500);
-		 				 }
-		 			 });
-		 		 });
-		 	 });
-
-			 $(document).ready(function() {
-				 $(window).scroll( function(){
-					 $('.slideinright').each( function(i){
-						 var bottom_of_element = $(this).offset().top;
-						 var bottom_of_window = $(window).scrollTop() + $(window).height();
-						 if( bottom_of_window > bottom_of_element ){
-								 $(this).animate({'margin-left':'0px'},2500);
-						 }
-						 });
-					 });
-			 });
-
-
 			 // gallery slider
 			 $('.multiple-items').slick({
 	   infinite: true,

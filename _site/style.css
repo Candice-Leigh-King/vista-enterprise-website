@@ -3,8 +3,7 @@
             /* #7ca553; */
 
 /* fonts  */
-/* font-family: 'Epilogue', sans-serif; this is for bold
-  font-family: 'Noto Sans TC', sans-serif; */
+/* font-family: 'Epilogue', sans-serif; this is for bold*/
 
   * {
     padding: 0;
@@ -400,7 +399,7 @@
     background-size: cover;
     background-position: center;
   }
-  
+
   .hover-overlay {
     position: relative;
     padding-bottom: 100%;
