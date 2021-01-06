@@ -46,7 +46,7 @@ place-6: 3933 Barryknoll
 <section class="grid-center">
   <section class="padded col-10">
     <div class="light-bg border">
-      <form action="https://formspree.io/contact@vistaenterpriseinc.com" method="POST" class="enquiry capped-width">
+      <form method="post" action="/success.html" class="enquiry capped-width">
         <div id="invest"class="grid-center padded">
           <div class="col-12 centered">
             <h3 class="sm-bold"> Contact us for more information </h3>
@@ -65,6 +65,8 @@ place-6: 3933 Barryknoll
             <label class="input-label"><br></label>
           </div>
           <input type="text" name="message" placeholder="Leave us a message (optional)" class="input-text margin-top">
+          <input type="hidden" name="_to" value="hello@candyandtheking.com">
+          <input type="text" name="_gotcha" style="display: none;">
           <input type="submit" value="Send Message" class="button-solid">
         </form>
       </div>
