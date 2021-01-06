@@ -13,7 +13,7 @@ meta-twitter-description: Contact Vista Enterprise, Inc a complete design and fu
 <section class="grid-center padded-top">
   <section class="padded col-10_sm-11">
     <div class="light-bg border">
-      <form action="https://formspree.io/contact@vistaenterpriseinc.com" method="POST" class="enquiry capped-width">
+      <form class="enquiry capped-width" method="post" action="/success.html">
         <div class="grid-center padded">
           <div class="col-12 centered">
             <h2 class="sm-bold"> Let's get in Touch </h2>
@@ -39,10 +39,11 @@ meta-twitter-description: Contact Vista Enterprise, Inc a complete design and fu
           <div class="col-10_sm-12">
             <h3 class="sm-bold">How can we help? </h3>
             <div class="floating-input">
-              <select name="attending" id="attending" required="">
-                <option value="select">What are you interested in? </option>
+              <select name="options" id="options" required="">
+                <option value="Interest">What are you interested in? </option>
                 <option value="Commercial"> Construction</option>
                 <option value="Domestic">Investing</option>
+                <input type="hidden" name="_to" value="hello@candyandtheking.com">
                 <input type="text" name="message" placeholder="Leave a message (optional)" class="input-text margin-top">
                 <input type="submit" value="Send Message" class="button-solid">
               </div>
