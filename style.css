@@ -49,6 +49,7 @@
   .capped-width { width: 80%; margin: auto;}
   .padded-top {  padding-top: 5%;  }
   .padded-mob-non {padding: 5%;}
+  .padded-top-sent {padding: 5%;}
 
   .border {border: 2px solid #6b2928;}
   .photography-page {border: 0.5rem solid white;}
@@ -587,6 +588,9 @@
   #body .text-bump {
     margin: -0.5rem;
   }
+
+  .padded-top-sent {padding: 15%;}
+
 
 
   .flex-flip{
