@@ -272,6 +272,14 @@
 
   footer a:hover {color: #6b2928;}
 
+
+  .sub-footer {
+  background-color: #7ca553;
+
+}
+
+  .small-font {font-size: 0.9rem;}
+  
   .sub-footer a {
     color: white;
     padding: 0% 2%;
